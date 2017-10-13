@@ -34,9 +34,9 @@ class String
         count+=1
       end
     end
-              binding.pry
+#              binding.pry
     count
   end
 end
 
-"beep boop. bop? hhjgfjg.. jkgkyuguy!".count_sentences
+#"beep boop. bop? hhjgfjg.. jkgkyuguy!".count_sentences
