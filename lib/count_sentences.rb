@@ -3,15 +3,15 @@ require 'pry'
 class String
 
   def sentence?
-    self
+    if self[self.size - 1]
   end
 
   def question?
-    self
+    if self[self.size - 1]
   end
 
   def exclamation?
-    self
+    if self[self.size - 1]
   end
 
   def count_sentences
