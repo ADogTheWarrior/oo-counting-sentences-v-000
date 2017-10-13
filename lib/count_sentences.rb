@@ -27,6 +27,10 @@ class String
   end
 
   def count_sentences
-    self.split(/.?!/)
+    count_array = self.split(/.?!/)
+    count_array.collect do |a|
+      if a != ""
+      end
+    end
   end
 end
