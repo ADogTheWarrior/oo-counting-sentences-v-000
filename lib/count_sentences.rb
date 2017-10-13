@@ -31,7 +31,7 @@ class String
     count = 0
     count_array.each do |a|
       if a != ""
-        count++
+        count+=1
       end
     end
     count
