@@ -38,3 +38,5 @@ class String
     count
   end
 end
+
+"beep boop. bop? hhjgfjg.. jkgkyuguy!"count_sentences
