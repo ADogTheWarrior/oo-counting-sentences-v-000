@@ -28,9 +28,12 @@ class String
 
   def count_sentences
     count_array = self.split(/.?!/)
-    count_array.collect do |a|
+    count = 0
+    count_array.each do |a|
       if a != ""
+        count++
       end
     end
+    count
   end
 end
