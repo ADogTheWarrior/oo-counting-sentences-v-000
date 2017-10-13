@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    count_array = self.split(/.?!/)
+    count_array = self.split(.?!)
     count = 0
     count_array.each do |a|
       if a != ""
