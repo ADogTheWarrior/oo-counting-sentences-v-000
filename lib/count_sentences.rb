@@ -27,7 +27,6 @@ class String
   end
 
   def count_sentences
-          binding.pry
     count_array = self.split(/.?!/)
     count = 0
     count_array.each do |a|
@@ -35,6 +34,7 @@ class String
         count+=1
       end
     end
+              binding.pry
     count
   end
 end
