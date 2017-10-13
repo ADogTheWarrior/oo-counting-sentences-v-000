@@ -39,4 +39,4 @@ class String
   end
 end
 
-"beep boop. bop? hhjgfjg.. jkgkyuguy!"count_sentences
+"beep boop. bop? hhjgfjg.. jkgkyuguy!".count_sentences
